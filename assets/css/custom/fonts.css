@@ -1,0 +1,154 @@
+/* Fonts */
+
+@font-face {
+    font-family: AmericanTypewriter;
+    src: url(../../fonts/AmericanTypewriter/AmericanTypewriter.ttc);
+}
+
+@font-face {
+    font-family: FireSans-Condensed;
+    src: url(../../fonts/FireSans/FiraSansCondensed-Regular.ttf);
+}
+
+@font-face {
+    font-family: IBMPlexSerif;
+    src: url(../../fonts/IBMPlexSans/IBMPlexSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: IBMPlexSerif-Italic;
+    src: url(../../fonts/IBMPlexSans/IBMPlexSerif-Italic.ttf);
+}
+
+@font-face {
+    font-family: IBMPlexSerif-Light;
+    src: url(../../fonts/IBMPlexSans/IBMPlexSerif-Light.ttf);
+}
+
+@font-face {
+    font-family: IBMPlexSerif-Bold;
+    src: url(../../fonts/IBMPlexSans/IBMPlexSerif-Bold.ttf);
+}
+
+@font-face {
+    font-family: IBMPlexSans;
+    src: url(../../fonts/IBMPlexSans/IBMPlexSans-Regular.otf);
+}
+
+@font-face {
+    font-family: IBMPlexSans-Italic;
+    src: url(../../fonts/IBMPlexSans/IBMPlexSans-Italic.otf);
+}
+
+@font-face {
+    font-family: IBMPlexSans-Medium;
+    src: url(../../fonts/IBMPlexSans/IBMPlexSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: IBMPlexSans-Semibold;
+    src: url(../../fonts/IBMPlexSans/IBMPlexSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: IBMPlexSans-Bold;
+    src: url(../../fonts/IBMPlexSans/IBMPlexSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: IBMPlexSans-BoldItalic;
+    src: url(../../fonts/IBMPlexSans/IBMPlexSans-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: MinionPro;
+    src: url(../../fonts/MinionPro/MinionPro-Regular.otf);
+}
+
+@font-face {
+    font-family: Roboto-Slab;
+    src: url(../../fonts/Roboto/RobotoSlab-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Condensed;
+    src: url(../../fonts/Roboto/RobotoCondensed-Regular.ttf);
+}
+
+@font-face {
+    font-family: Webdings;
+    src: url(../../fonts/Webdings/Webdings.ttf);
+}
+
+@font-face {
+    font-family: Wingdings;
+    src: url(../../fonts/Wingdings/Wingdings.ttf);
+}
+
+.font-AmericanTypewriter{
+    font-family: "AmericanTypewriter", serif;
+}
+
+.font-FireSans-Condensed{
+    font-family: "FireSans-Condensed", sans-serif;
+}
+
+.font-IBMPlexSerif{
+    font-family: "IBMPlexSerif", serif;
+}
+
+.font-IBMPlexSerif-Italic{
+    font-family: "IBMPlexSerif-Italic", serif;
+}
+
+.font-IBMPlexSerif-Light{
+    font-family: "IBMPlexSerif-Light", serif;
+}
+
+.font-IBMPlexSerif-Bold{
+    font-family: "IBMPlexSerif-Bold", serif;
+}
+
+.font-IBMPlexSans{
+    font-family: "IBMPlexSans", serif;
+}
+
+.font-IBMPlexSans-Italic{
+    font-family: "IBMPlexSans-Italic", serif;
+}
+
+.font-IBMPlexSans-Medium{
+    font-family: "IBMPlexSans-Medium", serif;
+}
+
+.font-IBMPlexSans-Semibold{
+    font-family: "IBMPlexSans-Semibold", serif;
+}
+
+.font-IBMPlexSans-Bold{
+    font-family: "IBMPlexSans-Bold", serif;
+}
+
+.font-IBMPlexSans-BoldItalic{
+    font-family: "IBMPlexSans-BoldItalic", serif;
+}
+
+.font-MinionPro{
+    font-family: "MinionPro", serif;
+}
+
+.font-Roboto-Slab{
+    font-family: "Roboto-Slab", sans-serif;
+}
+
+.font-Roboto-Condensed{
+    font-family: "Roboto-Condensed", sans-serif;
+}
+
+.font-Webdings{
+    font-family: "Webdings";
+}
+
+.font-Wingdings{
+    font-family: "Wingdings";
+}
