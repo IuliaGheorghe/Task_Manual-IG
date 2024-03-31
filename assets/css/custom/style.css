@@ -129,5 +129,8 @@ span.bullet{
 
 
 @media screen and (max-width: 385px){
-
+    .mobile-center-image{
+        display: flex;
+        justify-content: center;
+    }
 }
