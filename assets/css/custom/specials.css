@@ -1,0 +1,17 @@
+.box-pentru-inceput{
+    border: 1px dashed var(--light-green-color);    
+    position: relative;
+}
+
+.box-pentru-inceput .box-top{
+    position: absolute;
+    top: -20px;
+    left: -1px;
+}
+
+@media screen and (min-width: 1650px),
+       screen and (min-width: 992px) and (max-width: 1199px) {
+    .diftong-custom-mt {
+        margin-top: -20px !important;
+    }
+}

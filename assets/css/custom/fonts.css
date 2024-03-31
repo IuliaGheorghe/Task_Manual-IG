@@ -1,3 +1,14 @@
+:root{
+    --sm-font-size: 14px;
+    --sm-line-height: 18px;
+    --regular-font-size: 16px;
+    --regular-line-height: 22px;
+    --md-font-size: 18px;
+    --md-line-height: 24px;
+    --lg-font-size: 22px;
+    --lg-line-height: 34px;
+}
+
 /* Fonts */
 
 @font-face {
@@ -152,3 +163,26 @@
 .font-Wingdings{
     font-family: "Wingdings";
 }
+
+/* Sizes */
+
+.sm-font{
+    font-size: var(--sm-font-size);
+    line-height: var(--sm-line-height);
+}
+
+.regular-font{
+    font-size: var(--regular-font-size);
+    line-height: var(--regular-line-height);
+}
+
+.md-font{
+    font-size: var(--md-font-size);
+    line-height: var(--md-line-height);
+}
+
+.lg-font{
+    font-size: var(--lg-font-size);
+    line-height: var(--lg-line-height);
+}
+

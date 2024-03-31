@@ -1,92 +1,72 @@
-:root{
-    --black-color: #000000;
-    --green-color: #2C7F7F;
-    --light-green-color: #7D9321;
-    --wheat-color: #FAE490;
-    --light-wheat-color: #FEFBEA;
-    --yellow-color: #F8C828;
-    --orange-color: #E79700;
-    --pink-color: #C0455C;
-    --light-pink-color: #EBD0D0;
-    --lighter-pink-color: #F5E5E4;
+/* General */
+
+body{
+    font-family: "IBMPlexSans", serif;
+    font-size: var(--regular-font-size);
+    line-height: var(--regular-line-height);
 }
 
-.bg-black{
-    background-color: var(--black-color);
+.opacity-75{
+    opacity: 75%;
 }
 
-.bg-green{
-    background-color: var(--green-color);
+.nowrap{
+    white-space: nowrap;
 }
 
-.bg-light-green{
-    background-color: var(--light-green-color);
+.indent{
+    text-indent: 15px;
 }
 
-.bg-wheat{
-    background-color: var(--wheat-color);
+/* Page */
+
+.page{
+    min-height: 100vh;
 }
 
-.bg-light-wheat{
-    background-color: var(--light-wheat-color);
+.page-container{
+    width: 90%;
+    margin: 0 auto;
 }
 
-.bg-yellow{
-    background-color: var(--yellow-color);
+.page-separator{
+    border-right: 1px solid #131313;
 }
 
-.bg-orange{
-    background-color: var(--orange-color);
+/* Antet */
+
+.antet > div{
+    padding: 12.5px 15px;
+    height: 50px;
+    display: flex;
+    align-items: flex-end;
 }
 
-.bg-pink{
-    background-color: var(--pink-color);
+.antet .unit-id{
+    min-width: 50px;
+    justify-content: center;
 }
 
-.bg-light-pink{
-    background-color: var(--light-pink-color);
+.antet .unit-name{
+    width: 100%;
+    justify-content: flex-end;
 }
 
-.bg-lighter-pink{
-    background-color: var(--lighter-pink-color);
+.antet .materie{
+    min-width: 180px;
 }
 
-.text-black{
-    color: var(--black-color);
+/* Sectiune Exercitii */
+
+.exercises-top-layout .line{
+    width: 100%;
+    border: 1px solid var(--green-color);
 }
 
-.text-green{
-    color: var(--green-color);
-}
+/* RWD */
 
-.text-light-green{
-    color: var(--light-green-color);
-}
-
-.text-wheat{
-    color: var(--wheat-color);
-}
-
-.text-light-wheat{
-    color: var(--light-wheat-color);
-}
-
-.text-yellow{
-    color: var(--yellow-color);
-}
-
-.text-orange{
-    color: var(--orange-color);
-}
-
-.text-pink{
-    color: var(--pink-color);
-}
-
-.text-light-pink{
-    color: var(--light-pink-color);
-}
-
-.text-lighter-pink{
-    color: var(--lighter-pink-color);
+@media screen and (max-width: 767px){
+    .mobile-hide{
+        display: none;
+    }
 }
