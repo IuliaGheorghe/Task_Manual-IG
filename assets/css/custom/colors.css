@@ -1,9 +1,10 @@
 :root{
     --black-color: #000000;
+    --black-opacity-color: #00000090;
     --white-color: #FFFFFF;
     --green-color: #2C7F7F;
     --light-green-color: #7D9321;
-    --wheat-color: #feefb8;
+    --wheat-color: #fcf1cc;
     --light-wheat-color: #FEFBEA;
     --yellow-color: #F8C828;
     --orange-color: #E79700;
@@ -58,6 +59,10 @@
 
 .text-black{
     color: var(--black-color);
+}
+
+.text-black-opacity{
+    color: var(--black-opacity-color);
 }
 
 .text-white{
